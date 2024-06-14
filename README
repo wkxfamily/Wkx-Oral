@@ -1,0 +1,8 @@
+To run the program, ensure python is installed.
+
+Then run the below 2 commands for Linux/Mac:
+
+sudo sh ./dependencies.sh
+python3 image_extract.py
+
+2D images should be within the images folder.

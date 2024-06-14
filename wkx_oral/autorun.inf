@@ -1,0 +1,5 @@
+[autorun]
+icon=pbcdview.exe
+label=DICOM Media created by eRAD PACS
+open=wscript.exe pbcdstart.vbs
+action=View
