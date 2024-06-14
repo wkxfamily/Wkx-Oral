@@ -15,7 +15,7 @@ except:
 for img in dicom_list:
     print(img)
     if(img[-3:] == "425"):
-        continue
+        break
     curr_dir = s_dir + "/" + img
     ds = dicom.dcmread(curr_dir)
     cv2.imwrite("./images/"+img+".jpg", ds.pixel_array)
